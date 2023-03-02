@@ -1,5 +1,3 @@
-#include <unistd.h>
-
 int ft_atoi(char *str)
 {
     int i;
@@ -20,27 +18,10 @@ int ft_atoi(char *str)
     {
         i++;
     }
-    while (ft_isdigit(str[i]))
+    while ((str[i] >= '0' && str[i] <= '9'))
     {
         res = res * 10 + (str[i] - '0');
         i++;
     }
     return (res * sign);
 }
-/*
-int ft_isdigit(int c)
-{
-    if (c >= '0' && c <= '9')
-    {
-        return (1);
-    }
-    return (0);
-}
-#include <stdio.h>
-int main() {
-    char str[] = "  +12345as125";
-    int num = ft_atoi(str);
-    printf("The integer value of '%s' is %d\n", str, num);
-    return 0;
-}
-*/
