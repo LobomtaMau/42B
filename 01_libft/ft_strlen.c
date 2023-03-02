@@ -1,4 +1,4 @@
-#include <stddef.h>
+#include "libft.h"
 
 size_t ft_strlen(const char *str)
 {
@@ -11,7 +11,7 @@ size_t ft_strlen(const char *str)
     return (i);
 }
 
-
+/*
 #include <stdio.h>
 #include <string.h>
 
@@ -21,3 +21,4 @@ int main(void) {
     printf("The length of the string is %zu\n", len);
     return 0;
 }
+*/
