@@ -21,7 +21,7 @@ int ft_strncmp(const char *s1, const char *s2, size_t n)
         return ((unsigned char)*s1 - (unsigned char)*s2);
     }
 }
-
+/*
 #include <stdio.h>
 #include "libft.h"
 
@@ -36,3 +36,4 @@ int main(void)
     printf("Result 2: %d\n", result2);
     return (0);
 }
+*/

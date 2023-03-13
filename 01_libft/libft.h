@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lobomau <lobomau@student.42.fr>            +#+  +:+       +#+        */
+/*   By: struf <struf@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/09 17:08:09 by lobomau           #+#    #+#             */
-/*   Updated: 2023/03/09 17:56:45 by lobomau          ###   ########.fr       */
+/*   Updated: 2023/03/12 14:52:28 by struf            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,8 +16,8 @@
 # include <stdlib.h>
 # include <unistd.h>
 
-void    ft_bzero(void *s, size_t n)
-void    *ft_calloc(size_t count, size_t size)
+void    ft_bzero(void *s, size_t n);
+void    *ft_calloc(size_t count, size_t size);
 void    ft_putchar_fd(char c, int fd);
 void    ft_putnr_fd(int n, int fd);
 void    ft_putstr_fd(char *s, int fd);
